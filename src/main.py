@@ -11,6 +11,7 @@ except:
 import threading
 import requests
 import time
+from os import sys
 from colorama import *
 from tkinter import *
 from tkinter import messagebox
