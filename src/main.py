@@ -37,7 +37,7 @@ except FileNotFoundError:
     sys.exit("File [user.txt] Not Found!\nRun [user_generator.py] To create new user.txt List.\n")
 
 print("TikTok Checker By\n" + logo + "\n")
-print(F"[{Fore.RED}!{Fore.RESET}] Available usernames could be banned.")
+print(F"[{Fore.MAGENTA}!{Fore.RESET}] Available usernames could be banned.")
 
 threadNum = int(input(F"[{Fore.YELLOW}?{Fore.RESET}] Threads Number [1-10] > "))
 
