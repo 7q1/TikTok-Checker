@@ -8,8 +8,8 @@ Tiktok Usernames Checker by Python.
 
 ---
 
-#### Available Users Could be Banned.
+#### 1. Available Users Could be Banned.
 
-#### Script Will Auto Save [Available] Usernames
+#### 2. Script Will Auto Save **Available** Usernames in **Found.txt**.
 
 ---
