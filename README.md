@@ -12,7 +12,7 @@ Tiktok Usernames Checker by Python.
 
 **2.** Script Will Auto Save **Available** Usernames in **Found.txt**.
 
-**3.** Popup Message Will Appear Ffter Script Finishing.
+**3.** Popup Message Will Appear After Script Finishing.
 
 ---
 
