@@ -56,10 +56,9 @@ def messageBox():
     messagebox.showinfo("Finished", "Checker Finished ✓")
 # Checker function
 def func():
-    global threadNum
     while 1:
         user = file.readline().split("\n")[0]
-        # Exit loop when there's no user left
+        # Exit loop when there's no user left.
         if user == "":
             break
 
