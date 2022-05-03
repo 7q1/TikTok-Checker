@@ -52,7 +52,7 @@ def messageBox():
     window.wm_attributes('-topmost', True)
     window.overrideredirect(1)
     window.withdraw()
-    messagebox.showinfo("Finished", "\tChecker Finished ✓\t")
+    messagebox.showinfo("Finished", "Checker Finished ✓\nAll Available usernames stored in [found.txt].")
 # Checker function
 def func():
     while 1:
