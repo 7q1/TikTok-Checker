@@ -34,7 +34,7 @@ logo = (F"""{Fore.CYAN}
 try:
     file = open("user.txt", "r")
 except FileNotFoundError:
-    sys.exit("user.txt not found!\nuse user_generator.py to create new user.txt\n")
+    sys.exit("File [user.txt] Not Found!\nRun [user_generator.py] To create new user.txt List.\n")
 
 print("TikTok Checker By\n" + logo + "\n")
 print(F"[{Fore.RED}!{Fore.RESET}] Available usernames could be banned.")
