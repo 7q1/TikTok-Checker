@@ -11,7 +11,6 @@ except:
 import threading
 import requests
 import time
-from os import sys
 from colorama import *
 from tkinter import *
 from tkinter import messagebox
@@ -34,8 +33,7 @@ logo = (F"""{Fore.CYAN}
 try:
     file = open("user.txt", "r")
 except FileNotFoundError:
-    print("user.txt not found!\nuse user_generator.py to create new user.txt\n")
-    sys.exit(0)
+    sys.exit("user.txt not found!\nuse user_generator.py to create new user.txt\n")
 
 print("TikTok Checker By\n" + logo + "\n")
 print(F"[{Fore.RED}!{Fore.RESET}] Available usernames could be banned.")
