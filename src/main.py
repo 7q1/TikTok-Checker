@@ -52,7 +52,7 @@ def messageBox():
     window.wm_attributes('-topmost', True)
     window.overrideredirect(1)
     window.withdraw()
-    messagebox.showinfo("Finished", "Checker Finished ✓")
+    messagebox.showinfo("Finished", "\tChecker Finished ✓\t")
 # Checker function
 def func():
     while 1:
