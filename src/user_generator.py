@@ -40,7 +40,7 @@ try:
     i = i + "\n"
     with open(cwd, 'a') as f:
       f.write(i)
-  input(F"[+] Lists Saved in {os.getcwd()}.\n\nPress Enter To exit . . .")
+  input(F"[+] Lists Saved in [user.txt].\n\nPress Enter To exit . . .")
 except KeyboardInterrupt:
   print("\nScript Stopped.")
 # <!---------------------------------------- >
