@@ -65,7 +65,7 @@ def func():
             r = s.head(F"https://www.tiktok.com/@{user}").status_code
 
             if r == 200:
-                print(F"[{Fore.RED}-{Fore.RESET}] Unavailable --> {user}")
+                print(F"[{Fore.MAGENTA}-{Fore.RESET}] Unavailable --> {user}")
             elif r == 404:
                 print(F"[{Fore.GREEN}+{Fore.RESET}] Available --> {user}")
                 with open("found.txt", "a") as f:
