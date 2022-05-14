@@ -60,9 +60,14 @@ def func():
         # Exit loop when there's no user left.
         if user == "":
             break
-
+        headers = {
+	    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "content-type": "application/json"
+	    }
         with requests.Session() as s:
-            r = s.head(F"https://www.tiktok.com/@{user}").status_code
+            r = s.head(F"https://www.tiktok.com/@{user}", headers = headers).status_code
 
             if r == 200:
                 print(F"[{Fore.MAGENTA}-{Fore.RESET}] Unavailable --> {user}")
